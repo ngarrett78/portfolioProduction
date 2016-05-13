@@ -10,9 +10,9 @@ Upon completion of fully testing a new feature in your local dev environment mer
 
        1. Switches to the local master branch
 
-   2. $ git pull **staging** master
+   2. $ git pull **production** master
 
-      1. **staging** is the name of the remote repo we will use to differentiate between our other remote deployment servers
+      1. **production** is the name of the remote repo we will use to differentiate between our other remote deployment servers
 
       2. Resolve any conflicts
 
@@ -43,3 +43,5 @@ Promote your tested code by pushing the changes to the staging repo on to the st
 
 4. **Test Again!**  
 If anything fails, try to replicate the issue within your Local Dev Environment. Should the issue not be replicable there identify why it isn’t working in Staging and attempt to solve the problem. Sounds like a great reason to make a new local dev branch and start all over!
+
+
