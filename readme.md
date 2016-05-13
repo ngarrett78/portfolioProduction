@@ -24,7 +24,7 @@ Upon completion of fully testing a new feature in your local dev environment mer
                2. `$ git commit -am 'Relevant detailed commit message.'`  
                   * -a  = automatically stage all tracked, modified files before the commit  
                   * -m = leave a descriptive message for your committ
-               3. `$ git pull staging master`
+               3. `$ git pull production master`
 
 
   3. $ git merge **newFeatureName**
@@ -35,11 +35,11 @@ Upon completion of fully testing a new feature in your local dev environment mer
 You have just altered the code base since you last tested your new feature. Test out every aspect of your new feature.
    1. If any of your tests fail the master branch is flawed, and not ready to be pushed to remote. Resolve the issues prior to pushing to the remote in the next step.
 
-3. **Promote to Staging**  
+3. **Promote to Production**  
 Promote your tested code by pushing the changes to the staging repo on to the staging environment to ensure stability within the overall system.
 
-    1. $ git push staging master
-       1. staging is linked to the --remote staging server
+    1. $ git push production master
+       1. production is linked to the --remote production server
 
 4. **Test Again!**  
 If anything fails, try to replicate the issue within your Local Dev Environment. Should the issue not be replicable there identify why it isn’t working in Staging and attempt to solve the problem. Sounds like a great reason to make a new local dev branch and start all over!
