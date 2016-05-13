@@ -1,4 +1,4 @@
-## To deploy to the Staging Server, strict adherence to the following process is required.
+## To deploy to the Production Server, strict adherence to the following process is required.
 
 ---
 ####Get current copy of master branch from server
